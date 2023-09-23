@@ -4,7 +4,7 @@ public class Conta{
     float saldo;
 
 
-    Conta(String nome, int num){
+    public Conta(String nome, int num){
         this.nome = nome;
         this.num = num;
         this.saldo = 0;

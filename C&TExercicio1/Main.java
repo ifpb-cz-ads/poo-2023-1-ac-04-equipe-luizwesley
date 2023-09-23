@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Conta wesley = new Conta("Wesley", "1111", 0);
+        Conta wesley = new Conta("Wesley", "1111", 0.0f);
         wesley.depositar(4500);
         System.out.println(wesley.getSaldo());
         if(wesley.sacar(500)==true){

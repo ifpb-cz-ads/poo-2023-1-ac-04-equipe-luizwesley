@@ -1,7 +1,7 @@
 public class Conta{
-    String nome;
-    String cpf;
-    float saldo;
+    private String nome;
+    private String cpf;
+    private float saldo;
 
 
     public Conta(String nome, String cpf, float saldo){
